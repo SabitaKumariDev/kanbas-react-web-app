@@ -1,0 +1,159 @@
+<h2>Course Details</h2>
+<form>
+    <table>
+      <tr>
+        <td><b>Image:</b></td>
+        <td><input type="file" name="courseImage"><br><br></td>
+      </tr>
+      <tr>
+        <td><b>Name:</b></td>
+        <td>CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1 TR]<br><br></td>
+      </tr>
+      <tr>
+        <td><b>Course Code:</b></td>
+        <td>CS4550.12631.202410<br><br></td>
+      </tr>
+      <tr>
+        <td><b>Blueprint Course:</b></td>
+        <td>No<br><br></td>
+      </tr>
+      <tr>
+        <td><b>Course Template:</b></td>
+        <td><label ><input type = "checkbox" id = "WebUrl" unchecked/> Enable Course as Course Template </label><br><br></td>
+      </tr>
+      <tr>
+          <td> <b>Time Zone: </b></td>
+          <td><select id="Time">
+              <option value="EST">Eastern Time(US & Canada) (-05:00/-04:00)</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td><b>SIS ID:</b></td>
+          <td>CS4550.12631.202410<br><br></td>
+      </tr>
+      <tr>
+          <td><b>Subaccount:</b></td>
+          <td>CS Undergrad<br><br></td>
+      </tr>
+      <tr>
+          <td><b>Term:</b></td>
+          <td>202410_1 Fall 2023 Semester Full Term<br><br></td>
+      </tr>
+      <tr>
+          <td><b>Participation:</b></td>
+          <td><select id="Term">
+              <option value="EST">Term</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td> </td>
+          <td>Course participation is limited to term start and end dates<br><br></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><b>Start</b><br><br></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><input type="date" id="start-date-field"/><br/><br/></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><h4>End</h4></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><input type="date" id="end-date-field"/><br/></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><label ><input type = "checkbox" id = "restrict" unchecked/>Restrict students from viewing course before term start date</label>
+          </td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><label ><input type = "checkbox" id = "restrict" unchecked/>Restrict students from viewing course after term end date</label>
+              <br><br></td>
+      </tr>
+      <tr>
+          <td> <b>Default Due Time: </b></td>
+          <td><select id="DefaultDueTime">
+              <option value="Default">Account Default(11:59 PM)</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td> </td>
+          <td>This influences the user interface for setting due dates. It does not change the time <br> due for any existing assignments<br><br></td>
+      </tr>
+      <tr>
+          <td> <b>Language: </b></td>
+          <td><select id="Language">
+              <option value="Lang">Not set (user-configurable, defaults to English (Unit))</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td> </td>
+          <td>This will override any user/system langage preferences. This is only reccomened <br> for foriegn language courses<br></td>
+      </tr>
+      <tr>
+          <td><b>File Storage: </b></td>
+          <td>10000 megabytes<br><br></td>
+      </tr>
+      <tr>
+          <td><b>Large Course</b></td>
+          <td><label ><input type = "checkbox" id = "restrict" unchecked/>Launch SpeedGrader filtered by student group<br><br></label>
+      </tr>
+      <tr>
+          <td><b>Grading Scheme:</b></td>
+          <td><label ><input type = "checkbox" id = "restrict" unchecked/>Enable course grading scheme<br><br></label>
+      </tr>
+      <tr>
+          <td><b>License: </b></td>
+          <td><select id="License">
+              <option value="license">Private (Copyrighted)</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td> <b>File Copyright: </b></td>
+          <td><label ><input type = "checkbox" id = "Copyright" unchecked/>Copyright and license information must be provided for files before they <br> are published</label><br><br>
+          </td>
+      </tr>
+      <tr>
+          <td><b>Visibility: </b></td>
+          <td>If you need to make your course public, please contact your <br> administrator/support</td><br><br>
+      </tr>
+      <tr>
+          <td> </td>
+          <td><select id="Copyright">
+              <option value="copy">Course</option>
+        </select><br></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><label ><input type = "checkbox" id = "course" unchecked/>Include this course in the public course index</label><br><br></td>
+      </tr>
+      <tr>
+          <td><b>Format: </b></td>
+          <td><select id="OnCampus">
+              <option value="OnCampus">On-Campus</option>
+        </select><br><br></td>
+      </tr>
+      <tr>
+          <td><b>Mastery Paths:</b></td>
+          <td><label ><input type = "checkbox" id = "course" unchecked/>Enable individual learning paths for students based on assesment</label><br><br></td>
+      </tr>
+      <tr>
+          <td><b>Description: </b></td>
+          <td><textarea cols = "40" rows = "4">
+          </textarea></td>
+      </tr>
+      <td></td>
+      
+      <td><a href="#">More Options</a><br><br></td>
+      <tr>
+          <td></td>
+          <td><button onclick="location.href = '#'">Update Course Details</button>
+          </td>
+      </tr>
+    </table>
+  </form>
