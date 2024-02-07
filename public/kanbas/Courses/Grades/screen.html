@@ -1,278 +1,252 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Course Grade Screen</title>
-</head>
-<body>
+<html>
+  <head>
+    <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Grades/index.css" />
+    <link rel="stylesheet" type="text/css" href="/Kanbas/Courses/Navigation/index.css"/>
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- KANBAS NAVIGATION COLUMN -->
+    <div class="d-flex overflow-hidden" style="min-height: 100%;">
+      <div class="d-none d-md-block" style="background-color: black;">
+        <ul class="wd-kanbas-navigation">
+            <li><img src="/images/neulogo.png" height="55px" width="65px"/><br/></li>
+            <li class="account-icon"><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-solid fa-circle-user"></i><br/> Account</a></li>
+            <li><a href="/Kanbas/Dashboard/screen.html"><i class="fa fa-solid fa-gauge-simple-high"></i> Dashboard</a></li>
+            <li class="wd-active"> <a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i><br/> Courses</a></li>
+            <li><a href="#"><i class="fa fa-regular fa-calendar-days"></i><br/> Calendar</a></li>
+            <li><a href="#"><i class="fa fa-solid fa-inbox"></i><br/> Inbox</a></li>
+            <li><a href="#"><i class="fa fa-history"></i><br/> History</a></li>
+            <li><a href="#"><i class="fa fa-film"></i><br/> Studio</a></li>
+            <li><a href="#"><i class="fa fa-solid fa-arrow-right-from-bracket"></i><br/> Commons</a></li>
+            <li><a href="#"><i class="fa fa-regular fa-circle-question"></i><br/> Help</a></li>
+          </ul>
+      </div>
+    
+      <div class="d-flex flex-column w-100" style="padding-left: 80px;">
+        <div class="p-2 mx-3 breadcrumb-border">
+            <div style="--bs-breadcrumb-divider: '>';" class="d-flex align-items-center">
+                <i class="fa fa-bars fs-24 mr-20 text-danger cursor-pointer"></i>
+                <ol class="breadcrumb align-self-center pt-3 fs-20">
+                    <li class="breadcrumb-item">
+                        <a href="#" class="link-danger">
+                            CS5610.11744.202310
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item">Grades</li>
+                </ol>
+            </div>
+        </div>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="text-top">
-        <td width="10%">
-            <ul>
-                <li>
-                  <a href="/Kanbas/Account/Profile/screen.html">Account</a>
-               </li>
-                <li>
-                  <a href="#">Dashboard</a>
-                </li>
-                <li>
-                  <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                </li>
-                <li>
-                  <a href="#">Calendar</a>
-               </li>
-                <li>
-                  <a href="#">Inbox</a>
-               </li>
-               <li>
-                  <a href="#">History</a>
-               </li>
-               <li>
-                  <a href="#">Studio</a>
-               </li>
-               <li>
-                  <a href="#">Commons</a>
-               </li>
-               <li>
-                  <a href="#">Help</a>
-               </li>
-               </ul>            
-        </td>
-        <td   width="15%">
-            <ul>
-                <li>
-                <a href="/Kanbas/Courses/Home/screen.html">
-                    Home</a></li>
-                <li><a href="#">
-                    Modules</a></li>
-                <li><a href="#">
-                    Piazza</a></li>
-                <li><a href="#">
-                    Zoom Meetings</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">
-                    Assignments</a></li>
-                <li><a href="#">
-                    Quizzes</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">
-                    Grades</a></li>
-                <li><a href="#">
-                    People</a></li>
-                <li><a href="#">
-                    Panopto Video</a></li>
-                <li><a href="#">
-                    Discussion</a></li>
-                <li><a href="#">
-                    Announcements</a></li>
-                <li><a href="#">
-                    Pages</a></li>
-                <li><a href="#">
-                    Files</a></li>
-                <li><a href="#">
-                    Rubrics</a></li>
-                <li><a href="#">
-                    Outcomes</a></li>
-                <li><a href="#">
-                    Collaborations</a></li>
-                <li><a href="#">
-                    Syllabus</a></li>
-                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
-                    Settings</a></li>
-              </ul>            
-        </td>
-    <td width="40">
-    <div valign="top">
-        <select>
-            <option>Gradebook</option>
-        </select>
-        <button>Import</button>
-        <select>
-            <option>Export</option>
-        </select>
-        <button>Configure</button>
+  <div class="d-flex w-100 mt-4">
+    <div class="d-none d-md-block me-4">
+        <div class="ps-5 mb-3 w-100 fs-12" style="white-space: nowrap;"><em>202310_2 Fall 2022 Semest...</em></div>
+      <ul class="wd-navigation">
+        <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+        <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+        <li><a href="#">Piazza</a></li>
+        <li><a href="#">Zoom Meetings</a></li>
+        <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+        <li><a href="#">Quizzes</a></li>
+        <li class="wd-active"><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Panopto Video</a></li>
+          <li><a href="#">Discussion<i class="fa-regular fa-eye-slash float-end" aria-hidden="true"></i></a></li>
+          <li><a href="#">Announcements<i class="fa-regular fa-eye-slash float-end" aria-hidden="true"></i></a></li>
+          <li><a href="#">Pages<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Files<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Rubrics<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Outcomes<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Collaborations<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Syllabus<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="#">Program Reports<br> EAB Navigate <i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+          <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Settings<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="w-100 px-3">
+
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-light mx-2"><i class="fa fa-sign-in" aria-hidden="true"></i><span
+                    class="px-2">Import</span></button>
+            <button class="btn btn-light dropdown-toggle mx-2"><i class="fa fa-sign-out"
+                    aria-hidden="true"></i><span class="ps-2">Export</span></button>
+            <button class="btn btn-light"><i class="fa fa-cog" aria-hidden="true"></i></button>
+        </div>
+        <div class="ms-2 container-fluid">
+            <div class="row">
+
+            </div>
+            <div class="row gx-2">
+                <div class="col-6">
+                    <label for="student-names" class="form-label fw-bold">Student Names</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent"><i class="fa fa-search"></i></span>
+                        <input type="text"
+                            class="form-control d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none input-search"
+                            id="student-names" placeholder="Search Students">
+                        <span class="input-group-text bg-transparent"><i
+                                class="fa fa-chevron-down"></i></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label for="assignment-names" class="form-label fw-bold">Assignment Names</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent"><i class="fa fa-search"></i></span>
+                        <input type="text"
+                            class="form-control d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none input-search"
+                            id="assignment-names" placeholder="Search Assignments">
+                        <span class="input-group-text bg-transparent"><i
+                                class="fa fa-chevron-down"></i></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn btn-light ms-3 mt-2" type="button"><i class="fa fa-filter"></i> Apply
+            Filters</button>
+
+        <div class="table-responsive ms-3 mt-2">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="3">Student Name</th>
+                        <th class="fw-normal text-center">A1 SETUP <br />
+                            <span class="fs-13">Out of 100</span>
+                        </th>
+                        <th class="fw-normal text-center">A2 HTML <br />
+                            <span class="fs-13">Out of 100</span>
+                        </th>
+                        <th class="fw-normal text-center">A3 CSS <br />
+                            <span class="fs-13">Out of 100</span>
+                        </th>
+                        <th class="fw-normal text-center">A4 BOOTSTRAP <br />
+                            <span class="fs-13">Out of 100</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="text-danger"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Doxa Asibey</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">89.59%</td>
+                        <td class="text-center">98.65%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Thuy Tien Bui</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">
+                            <input type="number" value="91.5"
+                                class="d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2 input">
+                        </td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Yetong Chen</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">
+                          <input type="number" value="97"
+                              class="d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2 input">
+                      </td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Zhenyu Chen</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">98.64%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Young-Shin Chien</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Basil Coughlan</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">
+                          <input type="number" value="99.3"
+                              class="d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2 input">
+                      </td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Rachel Dao</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Lana Do</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Kartikey Dwivedi</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Jiarong Feng</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">94.24%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger" colspan="3"><a
+                                class="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover"
+                                href="#">Saurabh Sunil Gade</a></td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                        <td class="text-center">100%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-        <br>
-        <table width = "100%">
-            <tr >
-                <td>
-                    <h4>Student Names</h4>
-                    <input title = "Enter the name of student to search for"
-                    placeholder="Search Students"/>
-        
-                    <h4>Assignment Names</h4>       
-                    <input title = "Enter the name of Assignment to search for"
-                        placeholder="Search Assignments"/>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <button>Apply Filters</button>
-        <br><br>
-        <table border="1">
-            <tr valign="top">
-                <th>Student Name</th>
-                <th>A1 SETUP<br>Out of 100</th>
-                <th>A2 HTML<br>Out of 100</th>
-                <th>A3 CSS<br>Out of 100</th>
-                <th>A4 BOOTSTRAP<br>Out of 100</th>
-                <th>A5 JAVASCRIPT<br>Out of 100</th>
-                <th>A6 REACT<br>Out of 100</th>
-                <th>A7 REDUX<br>Out of 100</th>
-                <th>A8 NODE<br>Out of 100</th>
-                <th>A9 MONGO<br>Out of 100</th>
-            </tr>
-            <tr>
-                <td>Alice Wonderland</td>
-                <td>98</td>
-                <td>89</td>
-                <td>87</td>
-                <td>90</td>
-                <td>89</td>
-                <td>94</td>
-                <td>88</td>
-                <td>87</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Princes Leia</td>
-                <td>98</td>
-                <td>80</td>
-                <td>87</td>
-                <td>86</td>
-                <td>100</td>
-                <td>94</td>
-                <td><input type="number" value="85" max="100" min="60"></input></td>
-                <td>84</td>
-                <td>92</td>
-            </tr>
-            <tr>
-                <td>Luke Skywalker</td>
-                <td><input type="number" value="99" max="100" min="60"></input></td>
-                <td>88</td>
-                <td>97</td>
-                <td>82</td>
-                <td>96</td>
-                <td>93</td>
-                <td>95</td>
-                <td>100</td>
-                <td>93</td>
-            </tr>
-            <tr>
-                <td>Han Solo</td>
-                <td>83</td>
-                <td>99</td>
-                <td>94</td>
-                <td>98</td>
-                <td>86</td>
-                <td>85</td>
-                <td><input type="number" value="86" max="100" min="60"></input></td>
-                <td>80</td>
-                <td>84</td>
-            </tr>
-            <tr>
-                <td>Lando Calresian</td>
-                <td>83</td>
-                <td><input type="number" value="92" max="100" min="60"></input></td>
-                <td>80</td>
-                <td>80</td>
-                <td>92</td>
-                <td>92</td>
-                <td>94</td>
-                <td>87</td>
-                <td>84</td>
-            </tr>
-            <tr>
-                <td>Boba Fet</td>
-                <td>85</td>
-                <td>89</td>
-                <td>94</td>
-                <td>83</td>
-                <td>83</td>
-                <td>84</td>
-                <td>91</td>
-                <td>87</td>
-                <td>96</td>
-            </tr>
-            <tr>
-                <td>Darth Vader</td>
-                <td>81</td>
-                <td>81</td>
-                <td><input type="number" value="96" max="100" min="60"></input></td>
-                <td>80</td>
-                <td>89</td>
-                <td>88</td>
-                <td>82</td>
-                <td>80</td>
-                <td>82</td>
-            </tr>
-            <tr>
-                <td>Obi-Wan Kenobi</td>
-                <td><input type="number" value="85" max="100" min="60"></input></td>
-                <td>99</td>
-                <td>87</td>
-                <td>82</td>
-                <td>88</td>
-                <td>83</td>
-                <td>88</td>
-                <td>92</td>
-                <td>80</td>
-            </tr>
-            <tr>
-                <td>R2-D2</td>
-                <td>81</td>
-                <td><input type="number" value="92" max="100" min="60"></input></td>
-                <td><input type="number" value="82" max="100" min="60"></input></td>
-                <td>86</td>
-                <td>83</td>
-                <td><input type="number" value="84" max="100" min="60"></input></td>
-                <td>98</td>
-                <td>85</td>
-                <td>96</td>
-            </tr>
-            <tr>
-                <td>C-3PO</td>
-                <td>94</td>
-                <td>98</td>
-                <td>83</td>
-                <td>83</td>
-                <td>100</td>
-                <td>96</td>
-                <td>96</td>
-                <td>85</td>
-                <td>87</td>
-            </tr>
-            <tr>
-                <td>Yoda</td>
-                <td><input type="number" value="80" max="100" min="60"></input></td>
-                <td>89</td>
-                <td>99</td>
-                <td>89</td>
-                <td>96</td>
-                <td>85</td>
-                <td>96</td>
-                <td>92</td>
-                <td>85</td>
-            </tr>
-            <tr>
-                <td>Admiral Ackbar</td>
-                <td>82</td>
-                <td>88</td>
-                <td>95</td>
-                <td>100</td>
-                <td><input type="number" value="93" max="100" min="60"></input></td>
-                <td>98</td>
-                <td>85</td>
-                <td>87</td>
-                <td>99</td>
-            </tr>
-        </td>
-    </table>
+</div>
+</div>
+</div>
 </body>
+
 </html>
-
-
-
-
-
-
-

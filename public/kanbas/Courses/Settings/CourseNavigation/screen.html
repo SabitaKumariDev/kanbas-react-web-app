@@ -1,81 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Navigation Screen</title>
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Kanbas/Courses/Navigation/index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr valign="text-top">
         <td width="10%">
-            <ul>
-                <li>
-                  <a href="/Kanbas/Account/Profile/screen.html">Account</a>
-               </li>
-                <li>
-                  <a href="#">Dashboard</a>
-                </li>
-                <li>
-                  <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                </li>
-                <li>
-                  <a href="#">Calendar</a>
-               </li>
-                <li>
-                  <a href="#">Inbox</a>
-               </li>
-               <li>
-                  <a href="#">History</a>
-               </li>
-               <li>
-                  <a href="#">Studio</a>
-               </li>
-               <li>
-                  <a href="#">Commons</a>
-               </li>
-               <li>
-                  <a href="#">Help</a>
-               </li>
-               </ul>            
+            <ul class="wd-kanbas-navigation">
+                <ul class="wd-kanbas-navigation"><li><img src="/images/neulogo.png" height="55px" width="65px"/><br/></li>
+                <li class="account-icon"><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-solid fa-circle-user"></i><br/> Account</a></li>
+                <li><a href="/Kanbas/Dashboard/screen.html"><i class="fa fa-solid fa-gauge-simple-high"></i> Dashboard</a></li>
+                <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i><br/> Courses</a></li>
+                <li><a href="#"><i class="fa fa-regular fa-calendar-days"></i><br/> Calendar</a></li>
+                <li><a href="#"><i class="fa fa-solid fa-inbox"></i><br/> Inbox</a></li>
+                <li><a href="#"><i class="fa fa-history"></i><br/> History</a></li>
+                <li><a href="#"><i class="fa fa-film"></i><br/> Studio</a></li>
+                <li><a href="#"><i class="fa fa-solid fa-arrow-right-from-bracket"></i><br/> Commons</a></li>
+                <li><a href="#"><i class="fa fa-regular fa-circle-question"></i><br/> Help</a></li>
+              </ul>   
         </td>
         <td   width="20%">
-            <ul>
-                <li>
-                <a href="/Kanbas/Courses/Home/screen.html">
-                    Home</a></li>
-                <li><a href="#">
-                    Modules</a></li>
-                <li><a href="#">
-                    Piazza</a></li>
-                <li><a href="#">
-                    Zoom Meetings</a></li>
-                <li><a href="/Kanbas/Courses/Assignments/screen.html">
-                    Assignments</a></li>
-                <li><a href="#">
-                    Quizzes</a></li>
-                <li><a href="/Kanbas/Courses/Grades/screen.html">
-                    Grades</a></li>
-                <li><a href="#">
-                    People</a></li>
-                <li><a href="#">
-                    Panopto Video</a></li>
-                <li><a href="#">
-                    Discussion</a></li>
-                <li><a href="#">
-                    Announcements</a></li>
-                <li><a href="#">
-                    Pages</a></li>
-                <li><a href="#">
-                    Files</a></li>
-                <li><a href="#">
-                    Rubrics</a></li>
-                <li><a href="#">
-                    Outcomes</a></li>
-                <li><a href="#">
-                    Collaborations</a></li>
-                <li><a href="#">
-                    Syllabus</a></li>
-                <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">
-                    Settings</a></li>
-              </ul>                  
+            <ul class="wd-navigation">
+                <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+                <li><a href="#">Piazza</a></li>
+                <li><a href="#">Zoom Meetings</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                <li><a href="#">Quizzes</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Panopto Video</a></li>
+                  <li><a href="#">Discussion<i class="fa-regular fa-eye-slash float-end" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Announcements<i class="fa-regular fa-eye-slash float-end" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Pages<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Files<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Rubrics<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Outcomes<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Collaborations<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Syllabus<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Progress Reports<br>(EAB Navigate)<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+                  <li class="wd-active"><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Settings<i class="fa-regular fa-eye-slash" aria-hidden="true"></i></a></li>
+              </ul>                    
         </td>
 
         <td width="70%">
             <a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Course Details </a>
-            <a href="/Kanbas/Courses/Settings/CourseNavigation/screen.html"> Course Navigation</a>
+            &nbsp;
+            <a href="#"> Sections </a>
+            &nbsp;
+            <a href="/Kanbas/Courses/Settings/CourseNavigation/screen.html"> Navigation </a>
+            &nbsp;
+            <a href=""> Apps </a>
+            &nbsp;
+            <a href=""> Feature Options </a>
+            &nbsp;
+            <a href=""> Integrations </a>
             <h4>Drag and drop items to reorder them in the course Navigation.</h4>
         <table border ="1" width = "30%">
             <tbody>

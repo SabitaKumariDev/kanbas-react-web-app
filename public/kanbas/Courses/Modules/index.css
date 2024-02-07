@@ -1,0 +1,90 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.cal-icon {
+  margin-right: 10px;
+}
+
+
+.todo {
+  background-color: #fff; 
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.todo-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.todo-hr {
+  border: 0;
+  height: 2px;
+  background-color: #eee;
+  margin-bottom: 16px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-icon {
+  color: red; 
+  font-size: 1.5rem;
+}
+
+.todo-grade {
+  color: red; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.todo-details {
+  display: block; 
+  color: #555; 
+  font-size: 0.875rem; 
+}
+
+.todo-close {
+  color: #333; 
+  cursor: pointer; 
+  font-size: 1.25rem; 
+}
+
+.todo-content {
+  flex-grow: 1;
+  margin: 0 10px; 
+  text-align: left; 
+}

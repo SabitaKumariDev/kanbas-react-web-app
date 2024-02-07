@@ -1,0 +1,58 @@
+.back-dblue {
+    background-color: #0577BC;
+}
+
+.font-dblue {
+    color: #0577BC !important;
+    font-weight: 500;
+}
+
+.back-lgray {
+    background-color: #EBEDEE;
+}
+
+.font-lgray {
+    color: #EBEDEE !important;
+    font-weight: 500;
+}
+
+.back-dgray {
+    background-color: #C1C1C1;
+}
+
+.back-lblue {
+    background-color: #2DB9FF;
+}
+
+.course-name {
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.course-term {
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.card a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.card a:hover {
+    text-decoration: underline !important;
+    text-decoration-color: red !important;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.fa-ellipsis-v {
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+
+
