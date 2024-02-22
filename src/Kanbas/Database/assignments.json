@@ -1,0 +1,338 @@
+[
+    { 
+      "_id": "A101", 
+      "title": "Data Collection and Preprocessing", 
+      "course": "CS6120",
+      "dueDate": "2024-01-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A101", 
+      "title": "Exploratory Data Analysis (EDA)", 
+      "course": "CS6120",
+      "dueDate": "2024-01-30",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A101", 
+      "title": "Feature Extraction", 
+      "course": "CS6120",
+      "dueDate": "2024-02-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A101", 
+      "title": "Model Building", 
+      "course": "CS6120",
+      "dueDate": "2024-02-28",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A101", 
+      "title": "Evaluation of Model", 
+      "course": "CS6120",
+      "dueDate": "2024-03-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A101", 
+      "title": "Analysis and Conclusion", 
+      "course": "CS6120",
+      "dueDate": "2024-03-29",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A102", 
+      "title": "Basic Todo List App", 
+      "course": "CS5520",
+      "dueDate": "2024-04-010",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"
+    },
+    { 
+      "_id": "A103", 
+      "title": "Weather App with API Integration", 
+      "course": "CS5520",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A201", 
+      "title": "Personal Finance Tracker App", 
+      "course": "CS5520",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null
+    },
+    { 
+      "_id": "A202", 
+      "title": "Fitness Tracker App", 
+      "course": "CS5520",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm" 
+    },
+    { 
+      "_id": "A203", 
+      "title": "Social Media Integration App", 
+      "course": "CS5520",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null 
+    },
+    { 
+      "_id": "A301", 
+      "title": "E-commerce App with Payment Integration", 
+      "course": "CS5520",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null 
+    },
+    { 
+      "_id": "A302", 
+      "title": " Requirements Engineering", 
+      "course": "CS5500",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+    },
+    { 
+      "_id": "A303", 
+      "title": "Version Control System Usage", 
+      "course": "CS5500",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": "Agile Development Process", 
+      "course": "CS5500",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Software Testing", 
+      "course": "CS5500",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+    },
+    { 
+      "_id": "A403", 
+      "title": "Continuous Integration Deployment", 
+      "course": "CS5500",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A403", 
+      "title": "Software Maintenance and Debugging", 
+      "course": "CS5500",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": " Sorting Algorithms", 
+      "course": "CS5800",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Data Structures Implementation", 
+      "course": "CS5800",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": "Dynamic Programming", 
+      "course": "CS5800",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Graph Algorithms", 
+      "course": "CS5800",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+    },
+    { 
+      "_id": "A403", 
+      "title": "Greedy Algorithms", 
+      "course": "CS5800",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A403", 
+      "title": "Searching Algorithms and Techniques", 
+      "course": "CS5800",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A302", 
+      "title": "Procedural Programming", 
+      "course": "CS5010",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+    },
+    { 
+      "_id": "A303", 
+      "title": "Object-Oriented Programming", 
+      "course": "CS5010",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": "Functional Programming", 
+      "course": "CS5010",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Logic Programming", 
+      "course": "CS5010",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+    },
+    { 
+      "_id": "A403", 
+      "title": "Comparative Programming Paradigms", 
+      "course": "CS5010",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A403", 
+      "title": "Software Design Patterns", 
+      "course": "CS5010",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A302", 
+      "title": "Personal Portfolio Website", 
+      "course": "CS5610",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+    },
+    { 
+      "_id": "A303", 
+      "title": "Blog Platform", 
+      "course": "CS5610",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": "RESTful API Service", 
+      "course": "CS5610",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Single Page Application (SPA)", 
+      "course": "CS5610",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+    },
+    { 
+      "_id": "A403", 
+      "title": "E-commerce Website", 
+      "course": "CS5610",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A403", 
+      "title": "Responsive Web Design", 
+      "course": "CS5610",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A302", 
+      "title": "Image Classification with CNNs", 
+      "course": "CS7150",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+    },
+    { 
+      "_id": "A303", 
+      "title": "NLP with RNNs", 
+      "course": "CS7150",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A401", 
+      "title": "Transfer Learning Object Detection", 
+      "course": "CS7150",
+      "dueDate": "2024-09-18",
+      "totalPoints": 100, 
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A402", 
+      "title": "Generative Adversarial Networks", 
+      "course": "CS7150",
+      "dueDate": "2024-10-02",
+      "totalPoints": 100,
+      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+    },
+    { 
+      "_id": "A403", 
+      "title": "Reinforcement Learning", 
+      "course": "CS7150",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    },
+    { 
+      "_id": "A403", 
+      "title": "Create a Deep Q-Network ", 
+      "course": "CS7150",
+      "dueDate": "2024-10-16",
+      "totalPoints": 100,
+      "notAvailableBefore": null  
+    }
+  ]

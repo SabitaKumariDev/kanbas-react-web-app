@@ -1,0 +1,20 @@
+.course-name{
+    text-decoration: none; 
+    color: navy; 
+    font-weight: bold; 
+    display: block; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.course-description{
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    right: 100px;
+}
+
+.course-zero-margin{
+    margin: 0%;
+}
