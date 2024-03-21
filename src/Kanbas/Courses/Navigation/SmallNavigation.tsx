@@ -30,11 +30,12 @@ import { PiNotePencil } from 'react-icons/pi';
 import { HiMiniBars3 } from 'react-icons/hi2';
 import './index.css';
 import { PiEyeglasses } from 'react-icons/pi';
-import { courses } from '../../Database';
+import  db from '../../Database';
 import { useState } from 'react';
 
 function SmallNav() {
   const { courseId } = useParams();
+  const courses = db.courses
   const course = courses.find(course => course._id === courseId);
 
   const href = window.location.href;

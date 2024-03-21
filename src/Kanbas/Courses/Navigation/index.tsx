@@ -1,5 +1,5 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import { courses } from "../../Database";
+import db from "../../Database";
 import "./index.css";
 function CourseNavigation() {
     const links = ["Home", "Modules", "Piazza",
@@ -10,6 +10,8 @@ function CourseNavigation() {
         "Collaborations", "Syllabus", "Settings"
 
     ];
+
+    const courses = db.courses;
 
     const { pathname } = useLocation();
     const { courseId } = useParams();

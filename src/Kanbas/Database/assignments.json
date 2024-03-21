@@ -2,337 +2,425 @@
     { 
       "_id": "A101", 
       "title": "Data Collection and Preprocessing", 
+      "description": "Data Collection and Preprocessing algorithms.",
       "course": "CS6120",
-      "dueDate": "2024-01-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
-    },
-    { 
-      "_id": "A101", 
-      "title": "Exploratory Data Analysis (EDA)", 
-      "course": "CS6120",
-      "dueDate": "2024-01-30",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
-    },
-    { 
-      "_id": "A101", 
-      "title": "Feature Extraction", 
-      "course": "CS6120",
-      "dueDate": "2024-02-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
-    },
-    { 
-      "_id": "A101", 
-      "title": "Model Building", 
-      "course": "CS6120",
-      "dueDate": "2024-02-28",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
-    },
-    { 
-      "_id": "A101", 
-      "title": "Evaluation of Model", 
-      "course": "CS6120",
-      "dueDate": "2024-03-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
-    },
-    { 
-      "_id": "A101", 
-      "title": "Analysis and Conclusion", 
-      "course": "CS6120",
-      "dueDate": "2024-03-29",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
     },
     { 
       "_id": "A102", 
-      "title": "Basic Todo List App", 
-      "course": "CS5520",
-      "dueDate": "2024-04-010",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"
+      "title": "Exploratory Data Analysis (EDA)", 
+      "description": "Exploratory Data Analysis (EDA) algorithms.",
+      "course": "CS6120",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
     },
     { 
       "_id": "A103", 
+      "title": "Feature Extraction", 
+      "description": "Feature Extraction algorithms.",
+      "course": "CS6120",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
+    },
+    { 
+      "_id": "A104", 
+      "title": "Model Building", 
+      "description": "Model Building algorithms.",
+      "course": "CS6120",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
+    },
+    { 
+      "_id": "A105", 
+      "title": "Evaluation of Model", 
+      "description": "Evaluation of Model algorithms.",
+      "course": "CS6120",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
+    },
+    { 
+      "_id": "A106", 
+      "title": "Analysis and Conclusion",
+      "description": "Analysis and Conclusion algorithms.", 
+      "course": "CS6120",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
+    },
+    { 
+      "_id": "A111", 
+      "title": "Basic Todo List App", 
+      "description": "Basic Todo List App algorithms.",
+      "course": "CS5520",
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
+    },
+    { 
+      "_id": "A112", 
       "title": "Weather App with API Integration", 
+      "description": "Weather App with API Integration algorithms.",
       "course": "CS5520",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
     },
     { 
-      "_id": "A201", 
-      "title": "Personal Finance Tracker App", 
+      "_id": "A113", 
+      "title": "Personal Finance Tracker App",
+      "description": "Personal Finance Tracker App algorithms.", 
       "course": "CS5520",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"
     },
     { 
-      "_id": "A202", 
+      "_id": "A114", 
       "title": "Fitness Tracker App", 
+      "description": "Fitness Tracker App algorithms.",
       "course": "CS5520",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm" 
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm" 
     },
     { 
-      "_id": "A203", 
+      "_id": "A115", 
       "title": "Social Media Integration App", 
+      "description": "Social Media Integration App algorithms.",
       "course": "CS5520",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null 
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm" 
     },
     { 
-      "_id": "A301", 
+      "_id": "A116", 
       "title": "E-commerce App with Payment Integration", 
+      "description": "E-commerce App with Payment Integration algorithms.",
       "course": "CS5520",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null 
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm" 
     },
     { 
-      "_id": "A302", 
-      "title": " Requirements Engineering", 
+      "_id": "A117", 
+      "title": "Requirements Engineering", 
+      "description": "Requirements Engineering algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A303", 
+      "_id": "A118", 
       "title": "Version Control System Usage", 
+      "description": "Version Control System Usage algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
+      "_id": "A119", 
       "title": "Agile Development Process", 
+      "description": "Agile Development Process algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
       "_id": "A402", 
       "title": "Software Testing", 
+      "description": "Software Testing algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"    
     },
     { 
       "_id": "A403", 
       "title": "Continuous Integration Deployment", 
+      "description": "Continuous Integration Deployment algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A403", 
+      "_id": "A404", 
       "title": "Software Maintenance and Debugging", 
+      "description": "Software Maintenance and Debugging algorithms.",
       "course": "CS5500",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
-      "title": " Sorting Algorithms", 
+      "_id": "A405", 
+      "title": "Sorting Algorithms",
+      "description": "Sorting Algorithms algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A402", 
-      "title": "Data Structures Implementation", 
+      "_id": "A406", 
+      "title": "Data Structures Implementation",
+      "description": "Data Structures Implementation algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
-      "title": "Dynamic Programming", 
+      "_id": "A407", 
+      "title": "Dynamic Programming",
+      "description": "Dynamic Programming algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A402", 
-      "title": "Graph Algorithms", 
+      "_id": "A408", 
+      "title": "Graph Algorithms",
+      "description": "Graph Algorithms algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"    
     },
     { 
-      "_id": "A403", 
-      "title": "Greedy Algorithms", 
+      "_id": "A409", 
+      "title": "Greedy Algorithms",
+      "description": "Greedy Algorithms algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A403", 
-      "title": "Searching Algorithms and Techniques", 
+      "_id": "A410", 
+      "title": "Searching Algorithms and Techniques",
+      "description": "Searching Algorithms and Techniques algorithms.", 
       "course": "CS5800",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm",
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A302", 
-      "title": "Procedural Programming", 
+      "_id": "A411", 
+      "title": "Procedural Programming",
+      "description": "Procedural Programming algorithms.", 
       "course": "CS5010",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A303", 
-      "title": "Object-Oriented Programming", 
+      "_id": "A412", 
+      "title": "Object-Oriented Programming",
+      "description": "Object-Oriented Programming algorithms.", 
       "course": "CS5010",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
-      "title": "Functional Programming", 
+      "_id": "A413", 
+      "title": "Functional Programming",
+      "description": "Functional Programming algorithms.", 
       "course": "CS5010",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A402", 
-      "title": "Logic Programming", 
+      "_id": "A414", 
+      "title": "Logic Programming",
+      "description": "Logic Programming algorithms.", 
       "course": "CS5010",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"    
     },
     { 
-      "_id": "A403", 
-      "title": "Comparative Programming Paradigms", 
+      "_id": "A415", 
+      "title": "Comparative Programming Paradigms",
+      "description": "Comparative Programming Paradigms algorithms.", 
       "course": "CS5010",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A403", 
+      "_id": "A416", 
       "title": "Software Design Patterns", 
+      "description": "Software Design Patterns algorithms.",
       "course": "CS5010",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A302", 
-      "title": "Personal Portfolio Website", 
+      "_id": "A417", 
+      "title": "Personal Portfolio Website",
+      "description": "Personal Portfolio Website algorithms.", 
       "course": "CS5610",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A303", 
+      "_id": "A418", 
       "title": "Blog Platform", 
+      "description": "Blog Platform algorithms.",
       "course": "CS5610",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
+      "_id": "A419", 
       "title": "RESTful API Service", 
+      "description": "RESTful API Service algorithms.",
       "course": "CS5610",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A402", 
-      "title": "Single Page Application (SPA)", 
+      "_id": "A420", 
+      "title": "Single Page Application (SPA)",
+      "description": "Single Page Application (SPA) algorithms.", 
       "course": "CS5610",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"    
     },
     { 
-      "_id": "A403", 
-      "title": "E-commerce Website", 
+      "_id": "A421", 
+      "title": "E-commerce Website",
+      "description": "E-commerce Website algorithms.", 
       "course": "CS5610",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A403", 
-      "title": "Responsive Web Design", 
+      "_id": "A422", 
+      "title": "Responsive Web Design",
+      "description": "Responsive Web Design algorithms.", 
       "course": "CS5610",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A302", 
+      "_id": "A423", 
       "title": "Image Classification with CNNs", 
+      "description": "Image Classification with CNNs algorithms.",
       "course": "CS7150",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A303", 
+      "_id": "A424", 
       "title": "NLP with RNNs", 
+      "description": "NLP with RNNs algorithms.",
       "course": "CS7150",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A401", 
-      "title": "Transfer Learning Object Detection", 
+      "_id": "A425", 
+      "title": "Transfer Learning Object Detection",
+      "description": "Transfer Learning Object Detection algorithms.", 
       "course": "CS7150",
-      "dueDate": "2024-09-18",
-      "totalPoints": 100, 
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100, 
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A402", 
-      "title": "Generative Adversarial Networks", 
+      "_id": "A426", 
+      "title": "Generative Adversarial Networks",
+      "description": "Generative Adversarial Networks algorithms.", 
       "course": "CS7150",
-      "dueDate": "2024-10-02",
-      "totalPoints": 100,
-      "notAvailableBefore": "Sep 29, 2020 at 12.00 pm"   
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"    
     },
     { 
-      "_id": "A403", 
-      "title": "Reinforcement Learning", 
+      "_id": "A427", 
+      "title": "Reinforcement Learning",
+      "description": "Reinforcement Learning algorithms.", 
       "course": "CS7150",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     },
     { 
-      "_id": "A403", 
-      "title": "Create a Deep Q-Network ", 
+      "_id": "A428", 
+      "title": "Create a Deep Q-Network",
+      "description": "Create a Deep Q-Network algorithms.", 
       "course": "CS7150",
-      "dueDate": "2024-10-16",
-      "totalPoints": 100,
-      "notAvailableBefore": null  
+      "dueDateTime": "Due Mar 15 at 11:59pm", 
+      "points": 100,
+      "availableFromDate": "2024-03-06T12:00",
+      "availableUntilDate": "2024-03-20T11:59pm"   
     }
   ]
+
+
+
+

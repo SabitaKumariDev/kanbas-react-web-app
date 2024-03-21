@@ -1,10 +1,14 @@
-import {assignments, enrollments, grades, users} from "../../Database";
+// import {assignments, enrollments, grades, users} from "../../Database";
+import db from "../../Database";
 import { useParams, Link } from "react-router-dom";
 import { FaSignInAlt, FaSignOutAlt, FaCog, FaSearch, FaChevronDown, FaFilter } from "react-icons/fa";
 import "./index.css";
+import Database from "../../Database";
 
 function Grades(){
     const {courseId} =useParams();
+    const assignments = db.assignments;
+    const enrollments = db.enrollments;
     const as= assignments.filter((assignment)=>assignment.course===courseId);
     const es= enrollments.filter((enrollment) => enrollment.course===courseId);
 
@@ -50,7 +54,7 @@ function Grades(){
                         <tr>
                             <th >Student Name</th>
                             {
-                                as.map((assignment) => 
+                                as.map((assignment :any) => 
                                 (
                                     <th className="fw-normal text-center">{assignment.title}
                                         <br />
@@ -61,8 +65,9 @@ function Grades(){
                         </tr>
                     </thead>
                     <tbody>
-                        {es.map((enrollment) => {
-                        const user = users.find((user) => user._id === enrollment.user);
+                        {es.map((enrollment : any) => {
+                        const users = db.users;
+                        const user = users.find((user:any) => user._id === enrollment.user);
                         return (
                             <tr>
                                 <td><Link to={`#`} className="link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover">{user?.firstName} {user?.lastName}</Link></td>
@@ -71,10 +76,11 @@ function Grades(){
                                     
                                     as.map(
                                         
-                                        (assignment) => {
+                                        (assignment:any) => {
+                                            const grades = db.grades;
                                             const grade = grades.find
                                             (
-                                                (grade) => grade.student === enrollment.user 
+                                                (grade: any) => grade.student === enrollment.user 
                                                             && grade.assignment === assignment._id
                                             );
                                             return (<td className="text-center">{grade?.grade || "N/A"}</td>);

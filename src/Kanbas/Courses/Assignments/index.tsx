@@ -1,104 +1,115 @@
-import React from "react";
-import {FaCheckCircle, FaEllipsisV, FaPlusCircle, FaPlus, FaPencilAlt} from "react-icons/fa";
-import {PiNotePencil} from "react-icons/pi";
-import {Link, useParams} from "react-router-dom";
-import { assignments } from "../../Database";
+import Button from 'react-bootstrap/Button';
 import "./index.css"
+import { FaCheckCircle, FaChevronDown, FaEllipsisV, FaPencilAlt, FaPlus, FaPlusCircle } from "react-icons/fa";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux';
+import { KanbasState } from '../../store';
+import { deleteAssignment } from './assignmentsReducer';
+import {PiNotePencil} from "react-icons/pi";
+function Assignments() {
 
-function Assignments(){
-    const {courseId}= useParams();
-    const assignmentList=assignments.filter(
-        (assignment) => assignment.course ===courseId); 
-    
-        return (
-            <>
-                <div className="d-flex w-100 px-2">
-                    <div className="flex-fill">
-                        <div className="d-flex justify-content-between">
-                            <div className="d-flex align-self-center w-25">
-                                <input type="text"
-                                    className="form-control d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2"
-                                    placeholder="Search Assignments" aria-label="Username"
-                                    aria-describedby="basic-addon1"/>
-                            </div>
-                            <div>
-                                <button className="btn btn-light m-1">
-                                    + Group
-                                </button>
-                                <button className="btn btn-danger m-1">+ Assignment</button>
-                                <button className="btn btn-light m-1"><FaEllipsisV className="fs-20"/></button>
-                            </div>
-                        </div>
-                        <hr/>
-                        <ul className="list-group wd-modules me-4 mt-4">
-                            <li className="list-group-items">
-                                <div className="module-header py-3">
-                                    <span className="me-2 ms-1">
-                                        <FaEllipsisV className="fs-20"/>
-                                        <FaEllipsisV className="fs-20" style={{marginLeft:-13}}/>
-                                    </span>
-                                    <div className="d-inline-flex align-items-center justify-content-center">
-                                        <button className="btn dropdown-toggle me-2"/>
-                                        <span className="fw-bold cursor-pointer">Assignments</span>
-                                    </div>
-                                    <span className="float-end pe-3">
-                                        <span className="border-dark-subtle rounded-pill fs-12 border p-2">
-                                            40% of Total
-                                        </span>
-                                        <i className="me-2 ms-1 cursor-pointer"/>
-                                        <FaEllipsisV className="fs-20 ms-2 cursor-pointer"/>
-                                    </span>
-                                </div>
-                                <ul className="list-group">
-                                    {assignmentList.map((assignment)=>{
-                                        return (
-                                            <li key={assignment._id} className="list-group-items assignment-li">
-                                                <div className="module-content fw-bold d-flex justify-content-center align-itmes-center ms-1 py-2">
-                                                    <FaEllipsisV className="fs-20"/>
-                                                    <FaEllipsisV className="fs-20" style={{marginLeft:-13}}/>
-                                                    <PiNotePencil className="text-success fs-24 mx-4"/>
-                                                    <span className="w-300 me-auto">
-                                                        <Link 
-                                                        to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
-                                                        className="link-dark link-underline link-underline-opacity-0 link-underline-opacity-100-hover">
-                                                            {assignment.title}
-                                                        </Link>
-                                                        <br/>
-                                                        <Link 
-                                                        to="#"
-                                                        className="fw-normal fs-12 link-danger link-underline link-underline-opacity-0 link-underline-opacity-100-hover">
-                                                            Multiple Modules
-                                                        </Link>
-                                                        <span className="fw-normal fs-16"> | </span>
-                                                        <span className="fw-normal fs-12">
-                                                            {!! assignment.notAvailableBefore && (
-                                                                <span>
-                                                                    <span className="fw-bold">Not available until</span> {" "}{assignment.notAvailableBefore}
-                                                                    <span className="fw-normal fs-16"> | </span>
+    const { courseId } = useParams();
+    const assignmentsList = useSelector((state: KanbasState) =>
+        state.assignmentsReducer.assignments);
+    const assignmentList = assignmentsList.filter((a) => a.course === courseId);
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
-                                                                </span>
-                                                            )}
-                                                            <span className="fw-bold">Due</span> {assignment.dueDate}
-                                                            <span className="fw-normal fs-16"> | </span> Points: {assignment.totalPoints}
-                                                        </span>
-                                                    </span>
-                                                    <span className="pe-3">
-                                                        <FaCheckCircle className="text-success fs-20 me-3 cursor-pointer"/>
-                                                        <FaEllipsisV className="fs-20 ms-2 cursor-pointer"/>
-                                                    </span>
+    const handleDelete = () => {
+      const result = window.confirm("Do you want to proceed?");
+      if (result) {
+        console.log("User clicked Yes");
+        return true;
+      } else {
+        console.log("User clicked No");
+        return false;
+      }
+    };
 
-                                                </div>
-                                            </li>
-                                        );
-                                    })}
-                                </ul>
-                            </li>
-                        </ul>
-                        
-                    </div>
+  return (
+    <div className="col me-2">
+      <div className="row wd-margin-top">
+        <div className="float-end wd-margin-right">
+          <div className="wd-button float-end">
+            <a className="btn btn-secondary btn-sm" href="#" role="button">
+              <FaEllipsisV />
+            </a>
+          </div>
+          <div className="wd-button float-end">
+            <Link to={"../Assignments/Editor"} className="btn btn-danger btn-sm" role="button">
+            <FaPlus className="me-1" />
+              Assignment
+            </Link>
+          </div>
+
+          <div className="wd-button float-end">
+            <Button variant="secondary btn-sm">
+              <FaPlus className="me-1" />
+              Group
+            </Button>{' '}
+          </div>
+          <div className="float-start w-25">
+            <input className="form-control" id="input1" placeholder="Search for Assignment" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="wd-assignments-list">
+        <ul className="list-group wd-margin-left" style={{ borderRadius: "0%" }}>
+          <li className="list-group-item list-group-item-secondary">
+            <div>
+              <FaEllipsisV className="me-2" />
+              <b>Assignments</b>
+              <span className="float-end">
+
+                <label
+                  className="form-label pe-2 ps-2 me-3"
+                  style={{ borderRadius: "50px", borderWidth: "1px", borderStyle: "solid" }}
+                >40% of Total</label>
+                <FaCheckCircle className="text-success" />
+                <FaPlusCircle className="ms-2" />
+                <FaEllipsisV className="ms-2" />
+              </span>
+            </div>
+          </li>
+          <ul className="list-group" style={{ borderRadius: "0%" }}>
+            {assignmentList.map((assignment) => (
+              <li className='list-group-item'>
+                <div className='row'>                 
+                  <div className='col-auto' style={{ margin: "auto", display: "flex" }}>
+                  <FaEllipsisV className="fs-20"/>
+                  <FaEllipsisV className="fs-20" style={{marginLeft:-13}}/>
+                  <PiNotePencil className="text-success fs-24 mx-4"/>
+                  </div>
+                  <div className='col wd-fg-color-gray ps-0 ms-2'>
+                    <Link style={{ color: 'black', textDecoration: 'none' }} className="fw-bold ps-0" to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}>
+                      {assignment.title}
+                    </Link>
+                    <br />
+                    {assignment.description}
+                    <br /><b>Due</b> {assignment.dueDateTime} | {assignment.points} points
+                  </div> 
+
+                  <div className="col-auto" style={{ margin: "auto", display: "flex" }}>
+                  <button className="btn m-0 pt-0 pb-0 me-1 btn-danger btn-sm"
+                  onClick={() => {handleDelete() ? dispatch(deleteAssignment(assignment._id)) : 
+                    navigate(`/Kanbas/Courses/${courseId}/Assignments`);
+                  }}>
+                  Delete</button>
+                    <FaCheckCircle
+                      style={{ color: "green" }} />
+                    <FaEllipsisV style={{ verticalAlign: "middle" }} />
+                  </div>
                 </div>
-            </>
-        );
-}
+              </li>
+            ))}
+          </ul>
 
+        </ul>
+      </div>
+    </div >
+  );
+}
 export default Assignments;
+
+
